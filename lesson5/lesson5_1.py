@@ -1,1 +1,11 @@
-
+d= {}
+a , b =input("enter : ").split()
+d[a]=int(b)
+a , b =input("enter : ").split()
+d[a]=int(b)
+a , b =input("enter : ").split()
+d[a]=int(b)
+print(d)
+c=input("enter : ")
+print(f"{c} price=",d[c]*1.15)
+print(f"sum = {sum(d.values())}")
