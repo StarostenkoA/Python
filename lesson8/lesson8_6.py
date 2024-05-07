@@ -9,7 +9,7 @@ def yes_or_no(list):
         if f.get(i):
             f[i]='no'
         else:
-            f.pop(i='yes')
+            f[i]='yes'
             
     print (f)
     return f.values()
